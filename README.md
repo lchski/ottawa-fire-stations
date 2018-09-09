@@ -11,6 +11,10 @@ This R script pulls [the City of Ottawa’s facilities dataset](http://data.otta
 and uses Leaflet to map them. Running `analyze.R` should do all you need, provided you have the dependencies 
 installed (`tidyverse`, `geojsonio`, and `leaflet`).
 
-For more information on Ottawa’s fire stations, [check out the municipal website](https://ottawa.ca/en/about-ottawa-fire-services#fire-stations).
+ForWhen you run the script, it should produce a plot like this:
+
+![A plot of the fire stations in Ottawa, with a marker for each; above one marker there is a popup reading “Fire Station 32 - Leitrim”](example.png)
+
+ more information on Ottawa’s fire stations, [check out the municipal website](https://ottawa.ca/en/about-ottawa-fire-services#fire-stations).
 
 Woo!
